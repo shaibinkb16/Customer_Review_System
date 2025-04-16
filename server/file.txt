@@ -1,0 +1,1 @@
+az mysql flexible-server create \--resource-group ReviewAppRG \--name reviewmysqlserver \--location eastus \--admin-user mysqladmin \--admin-password Kl43e4175@ \--sku-name Standard_B1ms \--tier Burstable \--storage-size 32 \--version 8.0 \--public-access 0.0.0.0
